@@ -1,6 +1,6 @@
 {% set name = "mongomock" %}
-{% set version = "3.18.0" %}
-{% set sha256 = "1d29e2705bd2adffca0ba5dd59c9b988337323fc65a7545f7576b5abdb9e89d6" %}
+{% set version = "3.20.0" %}
+{% set sha256 = "02f660a839a4623669fefc7168056a0a6e0c0f9d93b2b5eeaa52d17f3a642486" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
