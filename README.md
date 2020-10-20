@@ -5,9 +5,13 @@ Home: https://github.com/mongomock/mongomock
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mongomock-feedstock/blob/master/LICENSE.txt)
 
 Summary: Small library for mocking pymongo collection objects for testing purposes
+
+Development: https://github.com/mongomock/mongomock
+
+Documentation: https://github.com/mongomock/mongomock
 
 Mongomock is a small library to help testing Python code that interacts with
 MongoDB via Pymongo.
