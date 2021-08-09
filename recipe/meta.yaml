@@ -1,6 +1,6 @@
 {% set name = "mongomock" %}
-{% set version = "3.22.1" %}
-{% set sha256 = "70d6d0d5e4c4e225eb46a109c527c2388e54f684b6d32bdb4718c0618ecec168" %}
+{% set version = "3.23.0" %}
+{% set sha256 = "d9945e7c87c221aed47c6c10708376351a5f5ee48060943c56ba195be425b0dd" %}
 
 package:
   name: {{ name|lower }}
@@ -17,11 +17,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - setuptools
     - pbr
   run:
-    - python
+    - python >=3.6
     - setuptools
     - six
     - sentinels
