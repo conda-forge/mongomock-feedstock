@@ -23,6 +23,7 @@ requirements:
   run:
     - python >=3.6
     - setuptools
+    - packaging
     - six
     - sentinels
 
