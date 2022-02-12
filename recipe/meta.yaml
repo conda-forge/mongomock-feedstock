@@ -1,6 +1,6 @@
 {% set name = "mongomock" %}
-{% set version = "3.23.0" %}
-{% set sha256 = "d9945e7c87c221aed47c6c10708376351a5f5ee48060943c56ba195be425b0dd" %}
+{% set version = "4.0.0" %}
+{% set sha256 = "b1832c3748d47444c18867373e5cea754c2e6f644a0cfbfd667f178f68bdecfc" %}
 
 package:
   name: {{ name|lower }}
@@ -23,6 +23,7 @@ requirements:
   run:
     - python >=3.6
     - setuptools
+    - packaging
     - six
     - sentinels
 
