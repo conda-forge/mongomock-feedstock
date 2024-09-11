@@ -1,6 +1,6 @@
 {% set name = "mongomock" %}
-{% set version = "4.0.0" %}
-{% set sha256 = "b1832c3748d47444c18867373e5cea754c2e6f644a0cfbfd667f178f68bdecfc" %}
+{% set version = "4.2.0.post1" %}
+{% set sha256 = "9241d2cec7274b9736dbe8edacb19528ff66af3b3779b324d79ecc4201227f31" %}
 
 package:
   name: {{ name|lower }}
