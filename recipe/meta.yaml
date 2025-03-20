@@ -1,6 +1,6 @@
 {% set name = "mongomock" %}
-{% set version = "4.0.0" %}
-{% set sha256 = "b1832c3748d47444c18867373e5cea754c2e6f644a0cfbfd667f178f68bdecfc" %}
+{% set version = "4.1.1" %}
+{% set sha256 = "667eaa8f2a4d446948ae85c635380c25c32bb437ff5201091b1482f11090ab79" %}
 
 package:
   name: {{ name|lower }}
@@ -62,6 +62,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - jonashaag
     - hajapy
     - birnbaum
     - mathiaseitz
