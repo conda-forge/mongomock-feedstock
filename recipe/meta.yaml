@@ -17,17 +17,19 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - setuptools
     - pbr
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - setuptools
     - packaging
     - six
     - sentinels
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - mongomock
 
