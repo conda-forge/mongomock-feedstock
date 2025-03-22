@@ -16,17 +16,15 @@ build:
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
-  build:
-    - hatchling
   host:
     - python {{ python_min }}
     - setuptools
     - pbr
+    - hatchling
   run:
     - python >={{ python_min }}
     - setuptools
     - packaging
-    - six
     - sentinels
 
 test:
